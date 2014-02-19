@@ -1,0 +1,46 @@
+Java Language Journal
+
+- Starting -
+The first line has to be: 
+
+public class Main {
+	public static void main(
+
+Every line of code that can actually run needs to be inside a class. This line declares a class named 'Main', which is public, 
+that means that any other class or file can access it.
+Don't forget to make the capital M on Main or it won't work when defining a class.
+Don't forget to close commands with ; 
+
+
+- Line Commands -
+
+	public - again means that anyone can access it.
+	static - means that you can run this method without creating an instance of Main.
+	void - means that this method doesn't return any value.
+	main - the class
+
+- Variables & Types -
+
+    byte - (number, 1 byte)
+    short -(number, 2 bytes)
+    int -(number, 4 bytes)
+    long -(number, 8 bytes)
+    float -(float number, 4 bytes)
+    double -(float number, 8 bytes)
+    char -(a character, 2 bytes)
+    boolean -(true or false, 1 byte)
+
+- Commands -
+
+	Declaring a Variable-
+	***Once a variable is declared you don't need to declare it's type again and can change it's value (below).
+int myNumber;
+myNumber = 5;
+	***or
+String variablename= value
+	***For maths and such use doubles, floats and ints. Int is a whole number, so no decimals. Float is a decimal number, but can't be a whole. 
+	***Double can be either.
+	
+	Print Text-
+System.out.println("text here");
+
